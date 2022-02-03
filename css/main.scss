@@ -1,0 +1,594 @@
+body {
+  font-family: "Bai Jamjuree";
+  background: white;
+  margin: 0em;
+
+  .navbar {
+    background-image: url(../images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+
+    .logo {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 10%;
+      padding: 2em;
+    }
+
+    .header {
+      text-align: center;
+
+      .h2 {
+        font-weight: 700;
+        color: black;
+        padding: 0em;
+        font-size: 2.5em;
+        margin: 0.2em;
+      }
+
+      .h4 {
+        color: gray;
+        padding: 0em;
+        margin: auto;
+        margin-top: 1em;
+        font-weight: 400;
+        font-size: 1.1em;
+        width: 35em;
+        text-align: center;
+        line-height: 1.8em;
+      }
+    }
+  }
+
+  .download {
+    text-align: center;
+    margin: 4em;
+
+    .ios-download {
+      font-size: 1.2em;
+      background: turquoise;
+      padding: 0.6em 1.7em;
+      border-radius: 50em;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      margin: 0.5em;
+      line-height: 1.5em;
+      box-shadow: 7px 7px 10px rgb(221, 217, 217);
+    }
+    .mac-download {
+      font-size: 1.2em;
+      background: rgb(55, 55, 247);
+      padding: 0.6em 1.7em;
+      border-radius: 50em;
+      text-decoration: none;
+      color: white;
+      font-weight: 600;
+      margin: 0.5em;
+      box-shadow: 7px 7px 10px rgb(221, 217, 217);
+    }
+  }
+
+  .snippet-section {
+    .h2 {
+      font-weight: 700;
+      color: black;
+      padding-top: 1.8em;
+      font-size: 2em;
+      margin: auto;
+      text-align: center;
+    }
+
+    .h4 {
+      color: darkgray;
+      padding: 0.5em;
+      font-weight: normal;
+      margin: auto;
+      width: 35em;
+      font-weight: 400;
+      font-size: 1.1em;
+      text-align: center;
+      line-height: 1.8em;
+      overflow: hidden;
+      margin-top: 1em;
+    }
+  }
+
+  .landing-page {
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-between;
+
+    .left-col {
+      .computer {
+        width: 60rem;
+        margin-left: -10em;
+        padding: 4em;
+      }
+    }
+
+    .right-col {
+      padding: 6em;
+      margin: 0em;
+
+      .sub-head {
+        margin: 0em;
+        font-weight: 700;
+        font-size: 1.5em;
+        color: black;
+      }
+
+      .detail {
+        font-weight: 400;
+        font-size: 1.1em;
+        color: gray;
+        margin-top: 0.7em;
+        line-height: 2em;
+      }
+
+      .quick-search,
+      .icloud-sync,
+      .complete-history {
+        padding-top: 4em;
+      }
+    }
+  }
+
+  .access-section {
+    margin-top: -0.8em;
+
+    .h2 {
+      font-weight: 700;
+      color: black;
+      padding-top: 1.8em;
+      font-size: 1.8em;
+      margin: 0em;
+      text-align: center;
+    }
+
+    .h4 {
+      color: gray;
+      padding: 0.5em;
+      font-weight: normal;
+      margin: auto;
+      margin-top: 1em;
+      width: 35em;
+      font-weight: 400;
+      font-size: 1.1em;
+      text-align: center;
+      line-height: 1.8em;
+    }
+
+    .devices {
+      width: 70%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5.5em;
+    }
+  }
+
+  .supercharge {
+    .h3 {
+      font-weight: 700;
+      color: black;
+      padding-top: 1.8em;
+      font-size: 1.6em;
+      margin: 0em;
+      text-align: center;
+    }
+
+    .h4 {
+      color: gray;
+      padding: 0.5em;
+      font-weight: 400;
+      margin: auto;
+      margin-top: 1em;
+      font-size: 1.1em;
+      text-align: center;
+    }
+  }
+
+  .properties {
+    .container {
+      display: flex;
+      justify-content: center;
+      margin-top: 5em;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      gap: 2em;
+
+      .blacklist,
+      .plain-text,
+      .preview {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        justify-content: center;
+
+        .blacklist-icon,
+        .text-icon,
+        .preview-icon {
+          height: 40px;
+        }
+        .h4 {
+          margin-top: 2em;
+          margin-bottom: 0em;
+          font-weight: 700;
+          font-size: 1.3em;
+          color: black;
+          margin-left: 2em;
+          margin-right: 2em;
+        }
+
+        .h5 {
+          font-weight: 400;
+          font-size: 1em;
+          color: gray;
+          margin-top: 0.9em;
+          margin-right: 2em;
+          margin-left: 2em;
+        }
+      }
+    }
+  }
+
+  .sponsor-section {
+    display: flex;
+    justify-content: center;
+
+    .sponsor {
+      display: flex;
+      list-style: none;
+      gap: 3em;
+      margin: 8em auto;
+
+      li {
+        img {
+          height: 2em;
+        }
+      }
+    }
+  }
+
+  .bottom-download {
+    margin-top: 4em;
+    text-align: center;
+    margin-bottom: 10em;
+
+    .h4 {
+      font-weight: 700;
+      color: black;
+      padding-top: 1.8em;
+      font-size: 1.6em;
+      margin: 0em;
+      text-align: center;
+    }
+
+    .h5 {
+      color: gray;
+      padding: 0.5em;
+      font-weight: normal;
+      width: 35em;
+      margin: auto;
+      margin-top: 1em;
+      font-weight: 400;
+      font-size: 1.1em;
+      text-align: center;
+      line-height: 1.65em;
+    }
+
+    .ios {
+      font-size: 0.8.2em;
+      background: turquoise;
+      padding: 0.4em 1.3em;
+      border-radius: 50em;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      margin: 0.5em;
+      box-shadow: 7px 7px 10px rgb(221, 217, 217);
+    }
+    .mac {
+      font-size: 0.8.2em;
+      background: rgb(55, 55, 247);
+      padding: 0.4em 1.3em;
+      border-radius: 50em;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      margin: 0.5em;
+      box-shadow: 7px 7px 10px rgb(221, 217, 217);
+    }
+  }
+
+  .bottom-section {
+    .container {
+      background: rgb(236, 236, 236);
+      padding: 3em;
+      display: flex;
+      justify-content: space-between;
+
+      .bottom-logo {
+        width: 40px;
+      }
+
+      .bottom-text {
+        display: flex;
+        flex: 50% 0 0;
+
+        ul {
+          display: flex;
+          list-style: none;
+          font-size: 1.1em;
+          gap: 2em;
+          flex-wrap: wrap;
+          text-align: left;
+          padding: 0em;
+          width: 80%;
+          justify-content: space-between;
+
+          li {
+            text-decoration: none;
+            padding: 0.2em;
+            width: 7em;
+          }
+          a {
+            color: darkgray;
+
+            &:hover {
+              color: turquoise;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+
+      .contact {
+        .social-media-icon {
+          display: flex;
+          gap: 3px;
+          list-style: none;
+          margin: 0;
+          padding: 0;
+
+          li {
+            &:hover {
+              svg {
+                transform: translateY(-15px);
+                transition: all 0.6s;
+                path {
+                  fill: currentColor;
+                  color: turquoise;
+                }
+              }
+            }
+
+            svg {
+              padding: 5% 5%;
+              fill: grey;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    .navbar {
+      background-image: url(../images/bg-header-mobile.png);
+      .logo {
+        width: 50%;
+      }
+
+      .header {
+        .h2 {
+          font-size: 2.3em;
+          width: 10em;
+          margin: auto;
+        }
+        .h4 {
+          font-size: 1.3em;
+          line-height: 1.5em;
+          width: 20em;
+        }
+      }
+      .download {
+        line-height: 5em;
+        .mac-download {
+          font-size: 1.75em;
+        }
+        .ios-download {
+          font-size: 1.75em;
+        }
+      }
+    }
+
+    .snippet-section {
+      h2 {
+        width: 10em;
+        margin: auto;
+      }
+      .h4 {
+        width: 20em;
+      }
+    }
+
+    .landing-page {
+      flex-direction: column;
+      float: none;
+      .left-col {
+        margin: auto;
+        justify-content: center;
+        .computer {
+          margin: auto;
+          justify-content: center;
+          width: 20em;
+        }
+      }
+
+      .right-col {
+        margin: auto;
+        justify-content: center;
+        padding-top: 0.5em;
+
+        .sub-head {
+          margin: auto;
+          justify-content: center;
+          text-align: center;
+        }
+        .detail {
+          justify-content: center;
+          margin: auto;
+          text-align: center;
+        }
+      }
+    }
+
+    .access-section {
+      .h2 {
+        width: 10em;
+        margin: auto;
+      }
+
+      .h4 {
+        width: 20em;
+      }
+    }
+
+    .supercharge {
+      .h3 {
+        width: 10em;
+        margin: auto;
+      }
+
+      h4 {
+        width: 20em;
+      }
+    }
+
+    .properties {
+      .container {
+        margin: auto;
+        display: block;
+        margin-top: 5em;
+        width: 20em;
+        text-align: center;
+        gap: 2em;
+      }
+      .blacklist,
+      .plain-text,
+      .preview {
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        width: 15em;
+        margin-top: 3em;
+
+        .blacklist-icon,
+        .text-icon,
+        .preview-icon {
+          height: 5px;
+          margin-top: 2em;
+        }
+        .h4 {
+          margin-top: 2em;
+          margin-bottom: 0em;
+          font-weight: 700;
+          font-size: 1.3em;
+          color: black;
+        }
+      }
+    }
+    .sponsor-section {
+      .sponsor {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+
+        li {
+          .google,
+          .ibm,
+          .microsoft,
+          .hp,
+          .vector {
+            justify-self: center;
+          }
+          img {
+            height: 3em;
+            margin-top: 3em;
+          }
+        }
+      }
+    }
+
+    .bottom-download {
+      .h4 {
+        width: 10em;
+        margin: auto;
+      }
+      .h5 {
+        width: 20em;
+      }
+
+      .download {
+        line-height: 5em;
+        .mac {
+          font-size: 1.75em;
+        }
+        .ios {
+          font-size: 1.75em;
+        }
+      }
+    }
+
+    .bottom-section {
+      .container {
+        display: block;
+        justify-content: center;
+        margin: auto;
+
+        .logo {
+          display: flex;
+          justify-content: center;
+          margin-bottom: 3em;
+
+          .bottom-logo {
+            width: 5em;
+          }
+        }
+
+        .bottom-text {
+          ul {
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+            li {
+              text-align: center;
+            }
+          }
+        }
+        .contact {
+          .social-media-icon {
+            margin: auto;
+            justify-content: center;
+            gap: 3em;
+            margin-top: 4em;
+          }
+        }
+      }
+    }
+  }
+}
