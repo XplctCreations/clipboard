@@ -440,10 +440,10 @@ html {
     line-height: 5em;
   }
   body .navbar .download .mac-download {
-    font-size: 1.75em;
+    font-size: 1.4em;
   }
   body .navbar .download .ios-download {
-    font-size: 1.75em;
+    font-size: 1.4em;
   }
   body .snippet-section h2 {
     width: 10em;
@@ -470,7 +470,7 @@ html {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    width: 20em;
+    width: 18em;
   }
   body .landing-page .right-col {
     margin: auto;
@@ -580,10 +580,10 @@ html {
     line-height: 5em;
   }
   body .bottom-download .download .mac {
-    font-size: 1.75em;
+    font-size: 1.4em;
   }
   body .bottom-download .download .ios {
-    font-size: 1.75em;
+    font-size: 1.4em;
   }
   body .bottom-section .container {
     display: block;
